@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -27,7 +27,7 @@ bool cmp(const string& s1, const string& s2) {
 }
 
 int main() {
-	//ÀÔ·Â
+	//ìž…ë ¥
 	int n;
 	cin >> n;
 	vector<string> serial;
@@ -35,9 +35,9 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> serial[i];
 	}
-	//¿¬»ê
+	//ì—°ì‚°
 	sort(serial.begin(), serial.end(), cmp);
-	//Ãâ·Â
+	//ì¶œë ¥
 	for (int i = 0; i < n; i++) {
 		cout << serial[i] << '\n';
 	}

@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <set>
 
 using namespace std;
 
 int main() {
-	//ÀÔ·Â
+	//ìž…ë ¥
 	int n, m;
 	int count = 0;
 	string input, test;
@@ -14,14 +14,14 @@ int main() {
 		cin >> input;
 		s.insert(input);
 	}
-	//¿¬»ê
+	//ì—°ì‚°
 	for (int i = 0; i < m; i++) {
 		cin >> test;
 		if (s.find(test) != s.end()) {
 			count++;
 		}
 	}
-	//Ãâ·Â
+	//ì¶œë ¥
 	cout << count;
 
 	return 0;

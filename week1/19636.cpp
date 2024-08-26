@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
 int main() {
-	//ÀÔ·Â
+	//ìž…ë ¥
 	int w0, I0, T;
 	int D, I, A;
 	cin >> w0 >> I0 >> T;
@@ -12,7 +12,7 @@ int main() {
 	int expectIx = I0;
 	int expectWo = w0;
 	int expectIo = I0;
-	//¿¬»ê
+	//ì—°ì‚°
 	for (int i = 0; i < D; i++) {
 		expectWx += (I - expectIx - A);
 		if (expectWx <= 0) {
@@ -30,7 +30,7 @@ int main() {
 		}
 	}
 	
-	//Ãâ·Â
+	//ì¶œë ¥
 	if (expectWx <= 0) {
 		cout << "Danger Diet\n";
 	}
